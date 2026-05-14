@@ -1,1 +1,143 @@
+# -------------------------------------
+# State of Command: Polish locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Zacznij Grę
+menu.button.profile=Profil
+menu.button.settings=Ustawienia
+menu.button.quit=Wyjdź
+menu.intro.presented_by=Prezentuję
+
+# Main Menu Settings
+menu.settings.title=Ustawienia
+menu.settings.language=Język
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Dyplomacja
+ui.button.economy=Strefa ekonomiczna
+ui.button.unset=Brak wyboru
+ui.button.military=Jednostki
+
+# UI Manager| Country Select
+ui.button.play_as=Graj jako
+
+# UI Manager| Settings
+ui.window.settings=Ustawienia
+ui.settings.secondary_icons=Wybierz flagę jednostki 
+ui.settings.flag_zoom_out=Pokaż Flagę (Units)
+ui.settings.nation_overlay=Obramówka Krajów (N)
+ui.settings.always_flag=Pokaż Flagę na Jednostce (F)
+ui.settings.unit_size=Numery Jendostki
+
+# UI Manager| City tab (single city)
+ui.label.pop=Pop: %d
+ui.label.buildings=Budynki:
+ui.label.no_buildings=Brak Budynków
+ui.label.construct=Konstrukcja:
+ui.button.factory=Manufaktura
+ui.button.military_hq=Siedziba Sztabu
+ui.button.depot=Magazyn
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu wybrane miasta
+ui.label.total_buildings=Wszystkie Budynki:
+ui.label.no_buildings_selected=Brak budynków w wybranych miastach
+ui.button.create_units=Trenuj Jednostki
+ui.button.construct_buildings=Planuj Budowę
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Fabryka
+ui.building.production_lines=Produkcji:
+ui.building.inventory=Inwentarz:
+ui.building.no_items=Brak materiałów
+ui.button.add_production_line=Buduj Linię Produkcji
+ui.building.military_hq_title=Siedziba Sztabu
+ui.button.spawn_unit=Spawn Jednostki
+ui.building.supply_depot=Magazyn
+ui.building.stored_equipment=Zasoby ekwipunku:
+ui.label.empty=Pusty
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Wybierz Typ Jednostki:
+ui.button.cancel=Usuń
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Brak ekwipunku
+ui.tooltip.morale=Morale: %.1f
+ui.tooltip.retreat_behavior=Zasady Odwrotu: %s
+ui.retreat.normal=Normalne
+ui.retreat.hold_position=Utrzymaj Pozycję
+ui.retreat.fallback=Odwrót
+ui.tooltip.forming=FORMOWANIE: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=INWAZJA GOTOWA
+ui.invasion.draw_line=Narysuj linie aby atakować
+ui.invasion.toggle_off=Naciśnij "I" aby anulować
+ui.button.execute=ATAKUJ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Konstrukcja
+ui.label.construct_building=Konstrukcja:
+
+ui.diplomacy.your_nation=Twój Kraj:
+# UI Manager| Diplomacy tab
+ui.diplomacy.status_ally=SOJUSZNIK
+ui.diplomacy.status_war=STAN WOJNY
+ui.diplomacy.status_neutral=Neutralny
+ui.diplomacy.button_ally=Zaproponuj Sojusz
+ui.diplomacy.button_war=Wypowiedz Wojnę
+ui.diplomacy.button_break_alliance=Złam Sojusz
+ui.diplomacy.button_peace=Oferuj Pokój
+ui.diplomacy.info_tooltip=Naciśnij prawy przycisk myszki aby zamknąć okno 
+
+# Editor| Top Bar
+editor.btn.provinces=Prowincje
+editor.btn.cities=Miasta
+editor.btn.urban=Urban
+editor.btn.roads=Drogi
+editor.btn.buildings=Budynki
+editor.btn.units=Jednostki
+editor.btn.nations=Kraje
+editor.btn.draw_province=Rysuj Prowincje
+editor.btn.definitions=Definicje
+editor.btn.ref=+ Ref
+editor.tooltip.render_settings=Ustawienia Renderowania
+editor.label.modified=[MODYFIKOWANY]
+editor.label.no_map=Błąd mapy — otwórz Menadżer Zasobów aby załadować mapę 
+
+# Editor| Resource Browser
+editor.window.resource_browser=Menadżer Zasobów
+editor.tab.maps=Mapy
+editor.tab.units=Jednostki
+editor.tab.flags=Flagi
+editor.btn.refresh=Odśwież
+editor.btn.load_map=Ładuj Mapę
+editor.btn.save_map=Zapisz Mapę
+editor.btn.load_unit_set=Ładuj Jednostki
+editor.btn.save_flags=Zapisz Flagę 
+editor.btn.load_flag_set=Ładuj Flagę
+editor.btn.duplicate=Duplikuj
+editor.btn.save_to=Zapisz do...
+editor.hint.new_set_name=Nazwij nową grupę...
+editor.btn.create=Stwórz
+editor.btn.save_all=Zapisz Projekt (Ctrl+S)
+editor.label.unsaved=Niezapisane zmiany!
+editor.hint.or_new_name=albo wpisz nową nazwę...
+editor.btn.save=Zapisz
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Duplikuj Grupę
+editor.popup.duplicate_format=Duplikuj %s Set
+editor.popup.new_name_label=Nowa Nazwa
+editor.btn.duplicate_confirm=Duplikuj
+editor.btn.cancel=Anuluj
+editor.popup.save_to_title=Zapisz Grupę
+editor.popup.save_to_format=Zapisz projekt do %s set:
+editor.set_type.map=Mapa
+editor.set_type.unit=Jednostka
+editor.set_type.flag=Flaga
 
